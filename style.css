@@ -1,0 +1,23 @@
+* {
+  text-align: center;
+}
+
+.result {
+  width: 80vw;
+  height: 80vh;
+  background-color: aqua;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+section:first-of-type {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
