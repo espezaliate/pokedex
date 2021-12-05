@@ -3,21 +3,22 @@
 
 <head>
     <link rel="stylesheet" href="./style.css">
-    <script src="./main.js"></script>
+    <script src="./main.js" type="module"></script>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pokedex</title>
 </head>
 
 <body>
     <div class="wrapper">
         <header>
             <h1>Pokedex</h1>
-            <h2>Look up and create your own pokemon</h2>
         </header>
         <main>
             <section role="search">
+                <h2>Look up any pokemon</h2>
                 <form action="#" method="get">
                     <legend>Search for pokemon by name or it's national pokedex number</legend>
                     <label for="s">
@@ -31,21 +32,22 @@
                     <h2></h2>
                     <div class="result-wrapper">
                         <img src="" alt=""></img>
-                    </div>
-                    <p></p>
-                    <div class="stats">
-                        <p>Height</p>
-                        <h4 id="height"></h4>
-                        <p>Weight</p>
-                        <h4 id="weight"></h4>
-                        <p>Category</p>
-                        <h4 id="category"></h4>
-                        <p>Abilities</p>
-                        <h4 id="abilities"></h4>
+                        <div class="stats">
+                            <p>Height</p>
+                            <h4 id="height"></h4>
+                            <p>Weight</p>
+                            <h4 id="weight"></h4>
+                            <p>Abilities</p>
+                            <h4 id="abilities"></h4>
+                            <p>Category</p>
+                            <h4 id="category"></h4>
+                        </div>
                     </div>
                 </div>
             </section>
         </main>
+
+        </section>
     </div>
 </body>
 
